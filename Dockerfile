@@ -23,4 +23,6 @@ WORKDIR /app
 
 EXPOSE $PORT:$PORT
 
+USER $USER
+
 ENTRYPOINT ["/app/main"]
